@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+	<meta charset="UTF-8">	
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<title>商家点评网站-个人中心</title>
+	<link rel="stylesheet" href="css/common.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/personal.css" type="text/css">
+</head>
+<body>
+	<!-- top -->
+		<div class="top-wrapper">
+			<div class="lf logo">
+				<h1>
+					<a href="index.html" title="网站名称">
+						<img src="img/logo.png" alt="网站LOGO">
+					</a>
+				</h1>
+			</div>
+			<div class="lf research">
+				<form action="#" method="" class="lf">
+					<input type="text" placeholder="请输入感兴趣的商家名称" name="keyword" class="lf">
+					<input type="submit" value="立即搜索" class="lf">
+				</form>
+				<div class="lf shop-type" id="shop-type">
+					<a href="#" class="select">行政</a>
+					<a href="#">个人</a>
+					<a href="#">企业</a>
+					<a href="#">商户</a>
+				</div>
+			</div>
+			<div class="login-link rt">
+				<a href="login.html">登录</a>
+				<a href="register.html">注册</a>
+			</div>
+		</div>
+		<div class="clear"></div>
+	<!-- top end -->
+		<div id="per_line"></div>
+		<div class="crumbs w1200"><span>首页</span>&gt;<a href="#">个人中心</a></div>
+		<div class="per_main w1200">
+			<div class="per_left lf">
+				<a class="plt" href="#">会员资料</a>
+				<div class="per_lf">
+					<a class="plt" href="javascript:void(0)">我的账户</a>
+					<ul class="per_lf_list">
+						<li><a href="#">资料设置</a></li>
+						<li><a href="#">会员充值</a></li>
+						<li><a href="#">评价管理</a></li>
+					</ul>
+				</div>
+				<div class="per_lf">
+					<a class="plt" href="javascript:void(0)">店铺一</a>
+					<ul class="per_lf_list">
+						<li><a href="#">店铺管理</a></li>
+						<li><a href="#">商品列表</a></li>
+						<li><a href="#">发布动态</a></li>
+						<li><a href="#">推荐位购买</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="per_right rt">
+				<div class="per_r_ico"><img src=""></div>
+				<div class="per_t1"><span>xxxx</span>，欢迎您！</div>
+  				<div class="">我的余额：<span>999.00</span><a href="#">充值</a><span>丨</span><span>已进行手机验证</span><a  href="#">手机未认证（点击认证）</a><span>丨</span><span>已进行手机验证</span><a  href="#">手机未认证（点击认证）</a><span>丨</span></div>
+			</div>
+		</div>
+
+	<!-- bottom -->
+		<div class="foot-wrapper">
+			<div class="foot-container">
+				<div class="lf foot-cont1">
+					xxxxx(公司名称)<br>
+					© 2009-2017 Aliyun.com 版权所有 ICP证：皖B2-20080101<br>
+					技术支持：华创在线网络科技（北京）有限公司<br>
+				</div>
+				<div class="rt foot-cont2">
+					<img src="img/weixin.jpg" alt="微信二维码" title="微信二维码">
+				</div>
+			</div>
+		</div>
+	<!-- bottom end -->
+
+	<!-- js -->	
+	<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+	<script>
+		$(".plt").click(function(){
+			$(this).next(".per_lf_list").toggle(1500);
+		})
+
+
+	</script>
+
+	
+	<!-- js end -->
+</body>
+</html>
